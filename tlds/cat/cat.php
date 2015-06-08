@@ -6,7 +6,7 @@ class cat extends Request {
 		$ascioParams = $this->mapToOrder($params,"Register_Domain");
 		
 		/* Use Post-Validation System (See TLD kit) */
-		$ascioParams["order"]["Domain"]["AuthInfo"] = "DEFERRED_VAL";
+		$ascioParams["order"]["Domain"]["AuthInfo"] = "DEFERRED-VAL";
 		$ascioParams["order"]["Domain"]["DomainPurpose"] = $params["additionalfields"]["Intended Use"];
 
 		$result = $this->request("CreateOrder",$ascioParams);
