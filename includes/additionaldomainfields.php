@@ -148,5 +148,13 @@ $additionaldomainfields[".ru"][] = array("Name" => "INN number", "LangVar" => "r
 $additionaldomainfields[".ru"][] = array("Name" => "KPP number", "LangVar" => "rukpp", "Type" => "text", "Default" => "", "Required" => true, "Description" => "Company: 9 digit long KPP number, called the Russian Territory-linked taxpayer number",);
 
 // .nl 
-
 $additionaldomainfields[".nl"][] = array("Name" => "Organisation Number", "LangVar" => "registrantnumber", "Type" => "text", "Default" => "", "Required" => false,"Description" => "Organization Number of the Registrant's company");
+
+// .CAT
+$additionaldomainfields[".cat"][] = array("Name" => "Intended Use", 'LangVar' => 'cat_intendeduse', "Type" => "text", "Size" => "128", "Default" => "", "Required" => true);
+
+// .EUS
+$additionaldomainfields[".eus"][] = array("Name" => "Intended Use", 'LangVar' => 'eus_intendeduse', "Type" => "text", "Size" => "150", "Default" => "", "Required" => true);
+
+// .GAL
+$additionaldomainfields[".gal"][] = array("Name" => "Intended Use", 'LangVar' => 'gal_intendeduse', "Type" => "text", "Size" => "150", "Default" => "", "Required" => true);
